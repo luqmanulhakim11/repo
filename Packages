@@ -1,0 +1,267 @@
+Package: clang
+Version: 10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a
+Priority: optional
+Section: Development
+Maintainer: Luqmanul Hakim <saya789.mn@gmail.com>
+Depends: clang-10, libc++-dev
+Provides: c++-compiler, c-compiler, objc-compiler
+Architecture: iphoneos-arm
+Filename: debs//clang_10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a_iphoneos-arm.deb
+Size: 1000
+Installed-Size: 0
+MD5sum: 3276314d235a30c8db2b0dcae4605d47
+Description: C, C++ and Objective-C compiler
+Homepage: https://www.llvm.org/
+
+Package: clang-10
+Version: 10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a
+Priority: optional
+Section: Development
+Maintainer: Luqmanul Hakim <saya789.mn@gmail.com>
+Depends: libllvm10, libclang-cpp10, ld64, libclang-common-10-dev
+Architecture: iphoneos-arm
+Filename: debs//clang-10_10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a_iphoneos-arm.deb
+Size: 45660
+MD5sum: bef2023c3a3512eb4a1455d8e4211be2
+Description: C, C++ and Objective-C compiler
+Homepage: https://www.llvm.org/
+
+Package: clang-tools-extra
+Version: 10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Depends: clang-10, libc++-dev, libllvm10
+Provides: c++-compiler, c-compiler, objc-compiler
+Architecture: iphoneos-arm
+Filename: debs//clang-tools-extra_10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a_iphoneos-arm.deb
+Size: 2158316
+Installed-Size: 34544
+MD5sum: 28d1542677a2a984cd4c9ed83c8053f9
+Description: Extra LLVM Clang tools
+Homepage: https://www.llvm.org/
+
+Package: debugserver
+Version: 10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a
+Priority: optional
+Section: Development
+Maintainer: Luqmanul Hakim <saya789.mn@gmail.com>
+Depends: debugserver-10
+Architecture: iphoneos-arm
+Filename: debs//debugserver_10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a_iphoneos-arm.deb
+Size: 948
+MD5sum: beacca6cf2201cdea01cf4a8826f8b26
+Description: Next generation, high-performance debugger (debugserver)
+Homepage: https://www.llvm.org/
+
+Package: debugserver-10
+Version: 10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a
+Priority: optional
+Section: Development
+Maintainer: Luqmanul Hakim <saya789.mn@gmail.com>
+Depends: libllvm10, libclang-cpp10
+Architecture: iphoneos-arm
+Filename: debs//debugserver-10_10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a_iphoneos-arm.deb
+Size: 192776
+MD5sum: 5a3611ceb1e111fdd4038f63337aceac
+Description: Next generation, high-performance debugger (debugserver)
+Homepage: https://www.llvm.org/
+
+Package: dsymutil
+Version: 10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a
+Priority: optional
+Section: Development
+Maintainer: Luqmanul Hakim <saya789.mn@gmail.com>
+Depends: dsymutil-10
+Architecture: iphoneos-arm
+Filename: debs//dsymutil_10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a_iphoneos-arm.deb
+Size: 940
+Installed-Size: 0
+MD5sum: 9114393c930c5727e2ae25745da7da9f
+Description: manipulate archived DWARF debug symbol files
+Homepage: https://www.llvm.org/
+
+Package: dsymutil-10
+Version: 10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a
+Priority: optional
+Section: Development
+Maintainer: Luqmanul Hakim <saya789.mn@gmail.com>
+Depends: libllvm10
+Architecture: iphoneos-arm
+Filename: debs//dsymutil-10_10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a_iphoneos-arm.deb
+Size: 114664
+Installed-Size: 800
+MD5sum: c6fe1c47b66a1f22503a2d1e118a42b7
+Description: manipulate archived DWARF debug symbol files
+Homepage: https://www.llvm.org/
+
+Package: libc++-10-dev
+Version: 10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a
+Priority: optional
+Section: Development
+Maintainer: Luqmanul Hakim <saya789.mn@gmail.com>
+Depends: libllvm10
+Architecture: iphoneos-arm
+Filename: debs//libc++-10-dev_10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a_iphoneos-arm.deb
+Size: 412692
+MD5sum: b7092a8d877a9a2284b8afeaa6c09c3c
+Description: LLVM C++ Standard library (development files)
+
+Package: libc++-dev
+Version: 10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a
+Priority: optional
+Section: Development
+Maintainer: Luqmanul Hakim <saya789.mn@gmail.com>
+Depends: libc++-10-dev
+Architecture: iphoneos-arm
+Filename: debs//libc++-dev_10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a_iphoneos-arm.deb
+Size: 920
+Installed-Size: 16
+MD5sum: e7ba6bdf7bf8aeab7c0955c659df9022
+Description: LLVM C++ Standard library (development files)
+
+Package: libclang-common-10-dev
+Version: 10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a
+Priority: optional
+Section: Development
+Maintainer: Luqmanul Hakim <saya789.mn@gmail.com>
+Depends: libllvm10
+Architecture: iphoneos-arm
+Filename: debs//libclang-common-10-dev_10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a_iphoneos-arm.deb
+Size: 394788
+MD5sum: a919377800b062021b5b3a3c7463e48c
+Description: Clang library - Common development package
+
+Package: libclang-cpp10
+Version: 10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a
+Priority: optional
+Section: Development
+Maintainer: Luqmanul Hakim <saya789.mn@gmail.com>
+Depends: libllvm10
+Architecture: iphoneos-arm
+Filename: debs//libclang-cpp10_10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a_iphoneos-arm.deb
+Size: 8529524
+MD5sum: d7f012bf5796e44cbeb472d1179a9e42
+Description: Modular compiler and toolchain technologies, runtime library
+
+Package: liblldb-10
+Version: 10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a
+Priority: optional
+Section: Development
+Maintainer: Luqmanul Hakim <saya789.mn@gmail.com>
+Depends: libllvm10, libclang-cpp10, xz-utils
+Architecture: iphoneos-arm
+Filename: debs//liblldb-10_10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a_iphoneos-arm.deb
+Size: 22119200
+MD5sum: 39461bbd3d84288174367a09fa125dbd
+Description: Next generation, high-performance debugger, library
+Homepage: https://www.llvm.org/
+
+Package: libllvm10
+Version: 10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a
+Priority: optional
+Section: Development
+Maintainer: Luqmanul Hakim <saya789.mn@gmail.com>
+Depends: ncurses (>= 6.0), libffi
+Architecture: iphoneos-arm
+Filename: debs//libllvm10_10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a_iphoneos-arm.deb
+Size: 10621488
+MD5sum: d30afa9c6e5a984da7fdd9937a055939
+Description: Modular compiler and toolchain technologies, runtime library
+
+Package: liblto10
+Version: 10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a
+Priority: optional
+Section: Development
+Maintainer: Luqmanul Hakim <saya789.mn@gmail.com>
+Depends: libllvm10
+Architecture: iphoneos-arm
+Filename: debs//liblto10_10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a_iphoneos-arm.deb
+Size: 35528
+MD5sum: 586f17b276daf87d144b51490ffbe8e8
+Description: Modular compiler and toolchain technologies, runtime library
+
+Package: lldb
+Version: 10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a
+Priority: optional
+Maintainer: Luqmanul Hakim <saya789.mn@gmail.com>
+Depends: lldb-10
+Architecture: iphoneos-arm
+Filename: debs//lldb_10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a_iphoneos-arm.deb
+Size: 960
+MD5sum: b7e47129ed59eb1b033e4fbdb1b26cc1
+Description: Next generation, high-performance debugger
+Homepage: https://www.llvm.org/
+
+Package: lldb-10
+Version: 10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a
+Priority: optional
+Maintainer: Luqmanul Hakim <saya789.mn@gmail.com>
+Depends: liblldb-10, debugserver-10
+Architecture: iphoneos-arm
+Filename: debs//lldb-10_10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a_iphoneos-arm.deb
+Size: 14815152
+MD5sum: 65c1b401f313ee214af3d3bd9d131876
+Description: Next generation, high-performance debugger
+Homepage: https://www.llvm.org/
+
+Package: llvm-binutils
+Version: 10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a
+Priority: optional
+Section: Development
+Maintainer: Luqmanul Hakim <saya789.mn@gmail.com>
+Depends: clang-10, libc++-dev, libllvm10, llvm-extra
+Provides: llvm-binutils
+Architecture: iphoneos-arm
+Filename: debs//llvm-binutils_10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a_iphoneos-arm.deb
+Size: 377472
+Installed-Size: 3768
+MD5sum: 469cdadd341ecb862f621a9ddf543945
+Description: LLVM Binutils, the alternative to GNU binutils
+Homepage: https://www.llvm.org/
+
+Package: llvm-extra
+Version: 10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a
+Priority: optional
+Section: Development
+Maintainer: Luqmanul Hakim <saya789.mn@gmail.com>
+Depends: clang-10, libc++-dev, libllvm10
+Provides: llvm-extra
+Architecture: iphoneos-arm
+Filename: debs//llvm-extra_10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a_iphoneos-arm.deb
+Size: 694716
+Installed-Size: 8384
+MD5sum: cf86ca996c3dfd717de741f26e818a31
+Description: Extra tools from LLVM, needed by llvm-binutils
+Homepage: https://www.llvm.org/
+
+Package: swift
+Version: 5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a
+Priority: optional
+Section: Development
+Maintainer: Luqmanul Hakim <saya789.mn@gmail.com>
+Depends: swift-5.3
+Conflicts: com.kabiroberai.swift-toolchain
+Replaces: com.kabiroberai.swift-toolchain
+Architecture: iphoneos-arm
+Filename: debs//swift_5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a_iphoneos-arm.deb
+Size: 948
+Installed-Size: 0
+MD5sum: faa6803ba073b05a347a0baab9c44859
+Description: Swift developer package
+Homepage: https://swift.org/
+
+Package: swift-5.3
+Version: 5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a
+Priority: optional
+Section: Development
+Maintainer: Luqmanul Hakim <saya789.mn@gmail.com>
+Depends: libllvm10
+Architecture: iphoneos-arm
+Filename: debs//swift-5.3_5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a_iphoneos-arm.deb
+Size: 51635380
+Installed-Size: 508016
+MD5sum: 3478682ae163c27114473906be02884f
+Description: Swift developer package
+Homepage: https://swift.org/
+
